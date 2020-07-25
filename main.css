@@ -6,3 +6,112 @@
 body {
     background-color: slategray;
 }
+
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    background-color: white;
+    border: 5px solid black;
+}
+#navLinks {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    align-items: center;
+}
+
+#navlinks li {
+    margin: 0 10px;
+}
+
+#navLinks li:hover {
+    background-color: #ebf4fa
+}
+
+/* BIO */
+
+#bioPage {
+    background-color: white;
+    border: 5px solid black;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+#bioPage p {
+    margin: 10px 5px;
+}
+
+/* TECHNOLOGIES */
+
+#technologiesPage {
+    width: 10%;
+    border: 5px solid black;
+    background-color: white;
+    margin: 10px 0;
+}
+
+#technologiesPage li {
+    margin: 10px 5px;
+}
+/* PROJECT CARDS */
+
+#projectsPage {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.project-info {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 40%;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.project-title {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+.project-info img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50%;
+}
+
+.project-description {
+    text-align: center;
+}
+
+.project-tech {
+    text-align: center;
+}
+.project-url {
+    text-align: center;
+}
+.project-hub {
+    text-align: center;
+}
+
+/* FOOTER */
+
+.page-footer {
+    background-color: white;
+    border: 5px solid black;
+    margin: 10px 0;
+    float: right;
+}
+
+.page-footer a {
+    text-decoration: none;
+}
+
