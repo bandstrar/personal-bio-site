@@ -7,3 +7,6 @@ A personal bio site to show my personal background, list of tools and technologi
 ![Image](./images/screenshot.jpg)
 
 This site uses HTML for the personal background and technologies sections and Javascript to print the project cards to the DOM. Very basic CSS has been used to style the site.
+
+## Link
+[Link to deployed site](https://bandstrar-bio-site.netlify.app/ "Rob's Bio Page")
