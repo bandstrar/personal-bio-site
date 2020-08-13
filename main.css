@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: slategray;
+    background-color: #CFDBD5;
 }
 
 
@@ -13,8 +13,8 @@ nav {
     display: flex;
     flex-flow: row wrap;
     padding: 10px;
-    background-color: white;
-    border: 5px solid black;
+    background-color: #F5CB5C;
+    border: 5px solid #242423;
 }
 #navLinks {
     display: flex;
@@ -28,13 +28,13 @@ nav {
 }
 
 #navLinks li:hover {
-    background-color: #ebf4fa
+    background-color: #E8EDDF
 }
 
 /* BIO */
 
 #bioPage {
-    background-color: white;
+    background-color: #E8EDDF;
     border: 5px solid black;
     margin: 10px 0;
     text-align: justify;
@@ -47,10 +47,19 @@ nav {
 /* TECHNOLOGIES */
 
 #technologiesPage {
-    width: 10%;
-    border: 5px solid black;
-    background-color: white;
-    margin: 10px 0;
+    width: 30%;
+    margin: auto;
+}
+
+#technologiesPage img {
+    width: 70px;
+}
+.listContainer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 #technologiesPage li {
@@ -69,14 +78,14 @@ nav {
     flex-flow: column nowrap;
     width: 40%;
     margin: 20px;
-    border: 2px solid black;
-    background-color: white;
+    border: 2px solid #242423;
+    background-color: #E8EDDF;
 }
 
 .project-title {
     text-align: center;
-    background-color: green;
-    color: white;
+    background-color: #F5CB5C;
+    color: #333533;
 }
 .project-info img {
     display: block;
@@ -105,8 +114,8 @@ nav {
 /* FOOTER */
 
 .page-footer {
-    background-color: white;
-    border: 5px solid black;
+    background-color: #F5CB5C;
+    border: 5px solid #242423;
     margin: 10px 0;
     float: right;
 }
