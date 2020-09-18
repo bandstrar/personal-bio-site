@@ -7,6 +7,9 @@ body {
     background-color: #CFDBD5;
 }
 
+a:link {
+    text-decoration: none;
+}
 
 /* NAVIGATION */
 nav {
@@ -19,8 +22,8 @@ nav {
 #navLinks {
     display: flex;
     justify-content: flex-end;
-    list-style-type: none;
     align-items: center;
+    list-style-type: none;
 }
 
 #navlinks li {
@@ -33,11 +36,17 @@ nav {
 
 /* BIO */
 
+.bio-container {
+display: flex;
+justify-content: center;
+}
+
 #bioPage {
     background-color: #E8EDDF;
     border: 5px solid black;
     margin: 10px 0;
     text-align: justify;
+    width: 75%;
 }
 
 #bioPage p {
@@ -114,13 +123,16 @@ nav {
 /* FOOTER */
 
 .page-footer {
+    display: flex;
+    width: 100%;
     background-color: #F5CB5C;
     border: 5px solid #242423;
-    margin: 10px 0;
-    float: right;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    justify-content: center;
 }
 
-.page-footer a {
-    text-decoration: none;
+.page-footer img {
+    width: 40px;
 }
-
